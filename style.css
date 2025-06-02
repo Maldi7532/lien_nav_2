@@ -1,4 +1,4 @@
-body{
+unbody{
     background-color: aquamarine;
     height: 500px;
     
@@ -105,4 +105,10 @@ body{
 #bal{
     color: red;
 
+}
+
+@media(max-width :720px){
+    .list ul{
+        display: flex ;
+    } 
 }
